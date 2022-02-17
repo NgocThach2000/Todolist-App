@@ -1,8 +1,8 @@
 # Todo List - App
 
 ### Version: 
-> Dart 2.17.0
-> Flutter version 2.10.0-1.0.pre.174 
+> - Dart 2.17.0
+> - Flutter version 2.10.0-1.0.pre.174 
 
 
 ## The following features:
