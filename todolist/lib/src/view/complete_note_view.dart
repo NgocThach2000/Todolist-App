@@ -110,7 +110,7 @@ class _CompleteNoteViewState extends State<CompleteNoteView> {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Todolist Manabie',
+            'Todolist',
             style: kAppBarTextStyle,
           ),
         ),

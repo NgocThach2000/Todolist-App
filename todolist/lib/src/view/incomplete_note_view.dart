@@ -109,7 +109,7 @@ class _IncompleteNoteViewState extends State<IncompleteNoteView> {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Todolist Manabie',
+            'Todolist',
             style: kAppBarTextStyle,
           ),
         ),

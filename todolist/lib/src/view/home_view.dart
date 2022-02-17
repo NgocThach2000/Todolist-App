@@ -114,7 +114,7 @@ class _HomeViewState extends State<HomeView> {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Todolist Manabie',
+            'Todolist',
             style: kAppBarTextStyle,
           ),
         ),
