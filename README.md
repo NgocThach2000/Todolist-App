@@ -11,11 +11,6 @@
 
 
 ## how to run the code: 
-```sh
-cd dillinger
-npm i
-node app
-```
 1.  Step 1: Clone my project from Github: https://github.com/NgocThach2000/Todolist-App.git
 ```sh
 git clone  https://github.com/NgocThach2000/Todolist-App.git
