@@ -33,7 +33,7 @@ class _AddNoteViewState extends State<AddNoteView> {
 
   @override
   void dispose() {
-    _controller.dispose();
+    _controller.disposed();
     super.dispose();
   }
 
