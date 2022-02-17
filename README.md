@@ -11,16 +11,16 @@
 
 
 ## how to run the code: 
-1.  Step 1: Clone my project from Github: https://github.com/NgocThach2000/Todolist-App.git
+1.  Step 1 Clone my project from Github: https://github.com/NgocThach2000/Todolist-App.git
 ```sh
 git clone https://github.com/NgocThach2000/Todolist-App.git
 ```
-2.  Step 2: Setup environment variable 
+2.  Step 2 Setup environment variable 
 ```sh
 flutter doctor -v
 flutter pud get
 ```
-3.  Step 2: Run project 
+3.  Step 3 Run project 
 ```sh
 flutter run
 ```
