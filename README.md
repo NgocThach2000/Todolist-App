@@ -1,12 +1,47 @@
-# todolist
+# Todo List - App
 
-A new Flutter application.
+### Version: 
+> Dart 2.17.0
+> Flutter version 2.10.0-1.0.pre.174 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## The following features:
+  - View & Change: The status of the note: completed, incompleted.
+  - Update, Insert, Delete Note.
 
-A few resources to get you started if this is your first Flutter project:
+
+## how to run the code: 
+```sh
+cd dillinger
+npm i
+node app
+```
+1.  Step 1: Clone my project from Github: https://github.com/NgocThach2000/Todolist-App.git
+```sh
+git clone  https://github.com/NgocThach2000/Todolist-App.git
+```
+2.  Step 2: Setup environment variable 
+```sh
+flutter doctor -v
+flutter pud get
+```
+3.  Step 2: Run project 
+```sh
+flutter run
+```
+
+## how to run test: 
+
+Demo - Android:
+<video src='https://user-images.githubusercontent.com/63405663/154407934-188b087e-3107-4711-8f97-9419ec4183cc.mp4' width=180/>
+
+## Package: 
+| Package | Link |
+| ------ | ------ |
+| sqflite: ^2.0.2 | https://pub.dev/packages/sqflite |
+| intl 0.17.0 | https://pub.dev/packages/intl |
+| path_provider: ^2.0.9 | https://pub.dev/packages/path_provider |
+| mvc_pattern: ^8.7.0 | https://pub.dev/packages/mvc_pattern |
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
