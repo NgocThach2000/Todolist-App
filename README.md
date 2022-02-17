@@ -13,7 +13,7 @@
 ## how to run the code: 
 1.  Step 1: Clone my project from Github: https://github.com/NgocThach2000/Todolist-App.git
 ```sh
-git clone  https://github.com/NgocThach2000/Todolist-App.git
+git clone https://github.com/NgocThach2000/Todolist-App.git
 ```
 2.  Step 2: Setup environment variable 
 ```sh
