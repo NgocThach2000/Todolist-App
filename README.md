@@ -18,7 +18,7 @@ git clone https://github.com/NgocThach2000/Todolist-App.git
 2.  Step 2 Setup environment variable 
 ```sh
 flutter doctor -v
-flutter pud get
+flutter pub get
 ```
 3.  Step 3 Run project 
 ```sh
