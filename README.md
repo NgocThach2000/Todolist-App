@@ -27,8 +27,14 @@ flutter run
 
 ## how to run test: 
 
-Demo - Android:
-<video src='https://user-images.githubusercontent.com/63405663/154407934-188b087e-3107-4711-8f97-9419ec4183cc.mp4' width=180/>
+### Demo - Android:
+> <video src='https://user-images.githubusercontent.com/63405663/154407934-188b087e-3107-4711-8f97-9419ec4183cc.mp4' width=180/>
+
+### Demo - IOS:
+> <video src='https://user-images.githubusercontent.com/63405663/154418660-9ada37e6-a03d-47a3-a325-f22079146bab.mov' width=180/>
+
+
+
 
 ## Package: 
 | Package | Link |
