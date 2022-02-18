@@ -1,3 +1,6 @@
+// ignore_for_file: non_constant_identifier_names
+
+// ignore: duplicate_ignore
 class Note {
   int? id;
   String? title;
@@ -31,5 +34,10 @@ class Note {
       deadline: DateTime.parse(map['deadline']),
       status: map['status'],
     );
+  }
+
+  @override
+  String toString() {
+    return 'Note{id: $id, title: $title, description: $description, deadline: $deadline, status: $status}';
   }
 }

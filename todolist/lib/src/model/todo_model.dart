@@ -10,6 +10,7 @@ abstract class TodoModel {
   //getter - setter
   static DateFormat get dateFormatter => _dateFormatter;
   static Future<List<Note>>? get noteList => _noteList;
+  static DatabaseHelper get databaseHelper => _databaseHelper;
 
   static void updateNoteList() {
     _noteList = _databaseHelper.getNoteList();

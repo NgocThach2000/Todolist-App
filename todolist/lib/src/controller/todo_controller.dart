@@ -2,6 +2,7 @@ import 'package:intl/intl.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 import 'package:todolist/src/model/todo_model.dart';
 import 'package:todolist/src/model/note_model.dart';
+import 'package:todolist/src/database/database.dart';
 
 class TodoController extends ControllerMVC {
   factory TodoController([StateMVC? state]) =>
@@ -19,4 +20,6 @@ class TodoController extends ControllerMVC {
   }
 
   Future<int> updatedNote(Note note) async => TodoModel.updatedNote(note);
+  Future<int> insertedNote(Note note) async => TodoModel.insertedNote(note);
+  Future<int> deletedNote(int id) async => TodoModel.deletedNote(id);
 }

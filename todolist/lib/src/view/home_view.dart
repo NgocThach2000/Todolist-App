@@ -26,7 +26,7 @@ class _HomeViewState extends State<HomeView> {
     updateNoteList();
   }
 
-  updateNoteList() {
+  updateNoteList() async {
     _controller.updateNoteList();
   }
 
@@ -59,6 +59,7 @@ class _HomeViewState extends State<HomeView> {
               onChanged: (value) {
                 note.status = value! ? 1 : 0;
                 _controller.updatedNote(note);
+
                 updateNoteList();
                 Navigator.pushReplacement(
                     context,
