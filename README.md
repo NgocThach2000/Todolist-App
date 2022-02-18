@@ -11,6 +11,7 @@
 
 
 ## how to run the code: 
+Request IDE [VSCode](#https://code.visualstudio.com) or [Android Studio Code](#https://developer.android.com/studio)
 1.  Step 1 Clone my project from Github: https://github.com/NgocThach2000/Todolist-App.git
 ```sh
 git clone https://github.com/NgocThach2000/Todolist-App.git
@@ -43,6 +44,7 @@ flutter run
 | intl 0.17.0 | https://pub.dev/packages/intl |
 | path_provider: ^2.0.9 | https://pub.dev/packages/path_provider |
 | mvc_pattern: ^8.7.0 | https://pub.dev/packages/mvc_pattern |
+|   mockito: ^5.1.0 | https://pub.dev/packages/mockito |
 
 # Document:
 
